@@ -1,0 +1,133 @@
+
+			body{
+				background-color: #DECCCC
+			}
+
+			h1, h2 {
+				font-family: 'Josefin Slab', serif
+			}
+
+			p {
+				font-family: 'Quattrocento Sans', Sans-Serif;
+				width: 100%;
+
+			}
+
+	
+
+
+			.second-layer{
+				background-color: #B89E97;
+			}
+
+			.container-margin-shade{
+
+				margin:30px auto;
+				box-shadow: 1px 1px 1px 1px gray;
+				border-radius: 4px;
+			}
+
+			.padder{
+				padding:30px 50px 30px 50px;
+			}
+
+			.horizontal-line{
+				color: #1098F7;
+			}
+
+			.img-center{
+				margin:0 auto;
+				float:none;
+			}
+
+			.img-size{
+				height:300px !important;
+				width:200px !important;
+
+			}
+
+			.carousel-margin{
+				border:50px;
+			}
+
+			.bg-naomi {
+				background-image: url(https://image.ibb.co/kCDrrv/naomi_2.jpg);
+        		background-size: cover;
+        		background-position: center;
+        		background-repeat: no-repeat;
+       			 padding-top: 80px;
+       			 padding-left: 60px;
+       			 padding-bottom: 80px; }
+
+
+			.bg-not-enough {
+				background-image: url(https://image.ibb.co/m13zeF/no_is_not_enough.jpg);
+        		background-size: contain;
+        		background-color: rgb(251, 186, 32);
+        		background-position: center;
+        		background-repeat: no-repeat;
+        		background-color: #FBBA20 }
+
+
+
+			.zero-pad{
+				padding: 0;
+			}
+
+
+			#naomi {
+				border-radius: 4px 4px 0px 0px;
+				z-index: -1;
+			}
+
+	
+
+
+			#overlay {
+				color: black;
+				letter-spacing: 6px;
+				background: rgb(0,0,0); /*fallback color */
+				background: rgba(247, 249, 244, 0.55);
+				padding: 10px;
+			}
+
+
+			.introtext {
+				line-height: 2em;
+				letter-spacing: 2px;
+				font-size: 16px;
+			}
+
+			.bg-twitter{
+				background-color: rgb(41,47,51);
+				border-radius: 4px;
+			}
+
+			.text-wrapper{
+				max-width: 300px;
+				text-align: justify;
+				margin-top: 80px;
+       			padding-left: 40px;
+       			padding-bottom: 40px;}
+
+			}
+
+			.info-section h2{
+				letter-spacing: 3px;
+
+			}
+
+			.info-section p {
+				font-size: 16px;
+				line-height: 25px;
+				text-align: justify;
+			}
+
+			.info-section {
+				color: rgba(247, 249, 244, 1.0);
+				box-shadow: 1px;
+			}
+
+
+
+

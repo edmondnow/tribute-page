@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Bootstrap Components Mashup</title>
+		
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<style>
+			.widthchange{
+				max-width:900px !Important;
+			}
+			
+		
+			.row-bottom-margin { margin-bottom:0px; }
+			
+			.other{
+				background-color: gray;
+			}
+		
+			.nofloatmargin{
+			margin:0 auto;
+			float:none;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+
+		<div class="container widthchange nofloatmargin">
+			<!-- navbar -->
+			<div class="row">
+				<div class="col-lg-12 col-xs-12 widthchange nofloatmargin">
+					
+					<nav class="navbar navbar-default row-bottom-margin">
+						<!-- NavBar  Header: Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header ">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">
+								Brand
+							</a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li class="active">
+											<a href="#">
+												Link
+												<span class="sr-only">(current)
+												</span>
+											</a>
+									</li>
+									<li>
+										<a href="#">
+											Link
+										</a>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+											Dropdown
+											<span class="caret">
+											</span>
+										</a>	
+									
+								
+										<ul class="dropdown-menu">
+											<li><a href="#">Action</li></a>
+											<li><a href="#">Other action</li></a>
+											<li role="separator" class="divider"><a href="#">Some other stuff</li></a>
+											<li><a href="#">yet some more stuff</li></a>
+											<li role="seperator" class="divider"><a href="#">Lalalala</li></a>
+											<li><a href="#">Marc</li></a>
+										</ul>
+									</li>
+								</ul>
+							</div>
+					</nav>
+				</div>	
+			</div>
+		
+			
+			<!-- carousel -->
+			
+			<div class="row ">
+				<div class="col-lg-12 col-xs-12 widthchange nofloatmargin">
+					
+					
+					
+					<div id="my-slider" class="acrousel slide " data-ride="carousel">
+					
+						<!-- indicators for caraousel -->
+						
+						<ol class="carousel-indicators">
+							<li data-target="#my-slider" data-slide-to="0" class="active"></li>
+							<li data-target="#my-slider" data-slide-to="1"></li>
+						 </ol>
+						
+						
+						<!-- wrapper for slides -->
+						
+						<div class="carousel-inner" role="listbox">
+							<div class="item active" >
+								<img src="https://www.freewebheaders.com/wordpress/wp-content/gallery/fruits/red-orange-citrus-kiwifruit-cherry-fruit-header.jpg" alt="assorted-fruit" class="img img-responsive">
+								<div class="carousel-caption">
+									<h1>Assorted Fruits</h1>
+								</div>
+							</div>
+							<div class="item">
+								<img src="https://www.freewebheaders.com/wordpress/wp-content/gallery/fruits/fresh-strawberry-header.jpg" alt="strawberries" class="img img-responsive">
+								<div class="carousel-caption">
+									<h1>Strawberries</h1>
+								</div>
+							</div>
+						</div>
+						
+						<!-- next and prev button -->
+						
+						<a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" area-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" area-hidden"true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-xs-6">
+				<blockquote class="blockquote">
+				Jorg was a silly boy who ate butt <footer> Edmond</footer>
+				</blockquote>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+	</body>
+	
+</html>
